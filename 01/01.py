@@ -3,7 +3,7 @@
 s = "パタトクカシーー"
 ans = ""
 
-for x in range(0, len(s)):
+for x in range(len(s)):
     if x % 2 != 0:
         ans += s[x]
 
